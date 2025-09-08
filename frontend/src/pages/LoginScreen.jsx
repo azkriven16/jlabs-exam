@@ -221,10 +221,9 @@ export const LoginScreen = () => {
 
         <div className="text-center mt-8">
           <p className="text-sm text-gray-500">
-            Backend API:{" "}
-            <code className="bg-gray-100 px-2 py-1 rounded mx-1">
-              http://localhost:8000/api/login
-            </code>
+            Test credentials: <br />
+            Email: test@gmail.com, <br />
+            Password: password123
           </p>
         </div>
       </div>

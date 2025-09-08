@@ -18,12 +18,6 @@ const users = [
     password: bcrypt.hashSync("password123", 10), // hash password
     name: "Admin User",
   },
-  {
-    id: 2,
-    email: "user@test.com",
-    password: bcrypt.hashSync("test123", 10), // hash password
-    name: "Test User",
-  },
 ];
 
 // Authentication middleware
@@ -120,5 +114,4 @@ app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
   console.log("📧 Test credentials:");
   console.log("   Email: test@gmail.com, Password: password123");
-  console.log("   Email: user@test.com, Password: test123");
 });
